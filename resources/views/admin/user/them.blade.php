@@ -96,15 +96,6 @@
 
                                 </div>
 
-
-
-								<div class="form-group row">
-                                    <label for="inputten" class="col-sm-2 col-form-label">Doanh thu</label>
-                                    <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="inputten" placeholder="Doanh thu" name="doanhthu" value="">
-                                    </div>
-                                </div>
-
                                 <div class="form-group row">
                                     <label for="inputten" class="col-sm-2 col-form-label">Email</label>
                                     <div class="col-sm-8">
