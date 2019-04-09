@@ -118,7 +118,7 @@
                                         <input type="email" class="form-control" id="inputten" placeholder="email" name="email" value="{{$user->email}}" readonly="">
                                     </div>
                                 </div>
-
+                                @if(Auth::user()->quyen==1)
                                 <div class="form-group row">
                                     <label for="inputten" class="col-sm-2 col-form-label">Quyền</label>
                                     <div class="col-sm-2">
@@ -136,6 +136,7 @@
                                         >Admin</label>
                                     </div>
                                 </div>
+                                @endif
 
 
 
